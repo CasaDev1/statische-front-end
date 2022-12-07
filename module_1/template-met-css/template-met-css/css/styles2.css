@@ -1,0 +1,36 @@
+h1 {
+    color: rgb(255, 225, 0);
+    text-align: center;
+    background-color: rgb(255, 0, 0);}
+body{
+    background-color: rgb(43, 226, 211);
+}
+
+.opmaak{
+    margin: 40px;
+    padding: 40px;
+    background-color: orangered;
+}
+nav>ul>li {
+    list-style : none;
+    display : inline;
+}
+
+a:hover{
+    background-color: blue;
+}
+button {
+    background-color: whitesmoke;
+    border: 2px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: 2px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  button:hover{
+    background-color: blue;
+    cursor: pointer;
+}

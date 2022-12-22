@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        line-height: 26px;
+      }
+      
+      div {
+        width: 50%;
+        margin: 0 auto;
+      }
+      
+      .hoofd {
+          width: 100%;
+          border-bottom: 1px solid black;
+      }
+      nav{
+        font-size: 40px;
+      }
+      h1 {
+        font-size: 36px;
+        line-height: 36px;
+      }
+      
+      h1 + p {
+        font-size: 24px;
+        line-height: 32px;
+      }
+      
+      h2, h3, h4, h5, h6 {
+        font-size: 32px;
+        line-height: 32px;
+      }
+      
+      ul li {
+        margin-bottom: 10px;
+      }
+      
+      ol li {
+        margin-bottom: 20px;
+      }
+      
+      .eentip {
+        background-color: #def6ed;
+        border-radius: 4px;
+        padding: 25px;
+        margin-left: 0px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+      }
+      img {
+        border: 200px white;
+        border-radius: 1px;
+        padding: 50px; /* margin is de afstand tussen elementen en padding is de afstand tussen de border en de content bijv tekst*/
+        width: 700px;
+        
+      }
+      
+      
+      
+      
+      nav ul {
+          display: flex;
+          flex-direction: column;
+        }
+        
+        @media (min-width: 800px) {
+          nav ul {
+            flex-direction: row;
+          }
+        }
+        nav ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+        
+        nav li {
+          
+          display: inline-block;
+        }
+        
+        nav a {
+          display: block;
+          padding: 8px;
+          text-decoration: none;
+          color: #000;
+          font-weight: bold;
+        }
+      
+      a:hover {
+          color: blue;
+      }

@@ -65,8 +65,29 @@ span{
 }
 .fotos{
     width: 45%;
-    height: 80%;
+    height: 60%;
     position: absolute;
     bottom: 0;
     right: 100px;
+}
+.fotos img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.fotos .vorm{
+    width: 90%;
+    height: 90%;
+}
+
+.fotos:hover .vorm{
+    bottom: 40px;
+
+}
+
+.fotos:hover .face{
+    left: 45%;
 }

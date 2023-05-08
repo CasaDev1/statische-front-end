@@ -35,43 +35,23 @@ nav ul li a:hover{
 }
 
 /* het bovenstaande gedeelte is voor de bovekant van de page */
-
 .wrapper {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-}
+    justify-content: space-between;
+  }
+  
+  .iconen {
+    width: 33%;
+  }
+  
+  .iconen img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
 
-.wrapper .iconen {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-}
-
-.wrapper i.github img{
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 20px;
-    height: 20px;
-}
-
-.wrapper i.discord img{
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 20px;
-    height: 20px;
-}
-
-.wrapper i.email img{
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 20px;
-    height: 20px;
-}
+  
+  
+  
 

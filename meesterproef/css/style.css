@@ -37,21 +37,27 @@ nav ul li a:hover{
 
 .detail{
     margin-left: 8%;
-    margin-top: 13%;
+    margin-top: 10%;
 }
 .detail h1{
     font-size: 50px;
     color: #212121;
     margin-bottom: 20px;
 }
-
+p:first-of-type {
+    font-size: 27px;
+    margin-top: 1%;
+}
 span{
     color: orange;
+    margin-top: 20px;
 }
 
 .detail p{
-    color: #555;
+    color: #0b0b0b;
     line-height: 22px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
 }
 
 .detail a{

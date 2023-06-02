@@ -35,3 +35,33 @@ nav ul li a:hover{
     color: red;
 }
 /* het bovenstaande gedeelte is voor de bovekant van de page */
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin-right: 20px;
+}
+
+.project-description {
+    flex-grow: 1;
+}
+
+.project-description p {
+    margin-top: 10px;
+}
